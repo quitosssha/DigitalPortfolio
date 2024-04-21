@@ -1,0 +1,112 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin:0;
+}
+
+header {
+    background: radial-gradient(circle, rgba(210,32,151,1) 0%, rgba(241,74,0,1) 80%); /* Градиент от оранжевого к красному */
+    color: white; /* Цвет текста на фоне градиента */
+    padding: 20px; /* Дополнительный отступ для улучшения читаемости текста */
+}
+
+h1 {
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+}
+
+.button {
+    display:block;
+    position:absolute;
+    padding: 10px 20px;
+    text-align:center;
+    background-color: white; /* Цвет фона */
+    color: black; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Закругляем углы */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+.button:hover {
+    background-color: beige; /* Изменяем цвет фона при наведении */
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    display:inline-block;
+    background: #f9f9f9;
+    border-radius: 20px;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Общие стили для формы */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для полей ввода */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Стили для кнопки отправки */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(210,32,151,1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Стили для кнопки отправки при наведении */
+input[type="submit"]:hover {
+    background-color: rgba(241,74,0,1);
+}
+
+/* Стили для плейсхолдера */
+::placeholder {
+    color: #aaa;
+}
+
+/* Стили для переноса строк */
+br {
+    display: none; /* Прячем перенос строки */
+}
+
+.main-text {
+    font-size: 30px;
+    line-height: 130%;
+}
+.img{
+    display:inline-block;
+}
