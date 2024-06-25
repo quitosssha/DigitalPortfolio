@@ -1,0 +1,27 @@
+﻿<div class="col-md-10">
+    <h1 class="display-3 text-white fw-7 text-center">Обсуждения пользователей</h1>
+    <div id="formQuestion" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">x</button>
+                </div>
+                <form id="discussionForm">
+                    <div class="form-group m-5">
+                        <textarea class="form-control" id="question" rows="4" placeholder="Введите ваш вопрос"></textarea>
+                    </div>
+                    <input type="submit" value="Отправить" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Discussions Display -->
+
+    <div class="d-flex justify-content-between mt-4">
+        <button id="prevBtn" class="btn btn-secondary">Назад</button>
+        <button id="add" class="btn btn-secondary" data-toggle="modal" data-target="#formQuestion">Задать вопрос</button>
+        <button id="nextBtn" class="btn btn-secondary">Вперед</button>
+    </div>
+</div>

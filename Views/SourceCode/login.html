@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="container-fluid p-3">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>StudentSync</h1>
+            </div>
+            <div class="col-md-1 d-flex align-items-center justify-content-end">
+                <a href="registration page.html" style="text-decoration: none;" class="button">Регистрация</a>
+            </div>
+            <div class="col-md-1 d-flex align-items-center justify-content-start">
+                <a href="login.html" style="text-decoration: none;" class="button">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <nav class="nav flex-column bc-fon mt-5">
+                        <a class="nav-link active h5" href="index.html">Главная страница</a>
+                        <a class="nav-link h5" href="forum.html">Форум</a>
+                        <a class="nav-link h5" href="#">Идеи</a>
+                    </nav>
+                </div>
+                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                    <form method="post" action="/login" class="log-reg mt-5">
+                        <input type="text" name="username" placeholder="Login" required>
+                        <br />
+                        <input type="password" name="password" placeholder="Password" required>
+                        <br />
+                        <input type="submit" value="Войти">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

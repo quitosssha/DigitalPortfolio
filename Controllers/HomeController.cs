@@ -19,5 +19,10 @@ namespace DigitalPortfolio.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult Forum()
+		{
+			return View();
+		}
 	}
 }

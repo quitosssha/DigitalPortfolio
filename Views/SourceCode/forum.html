@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="container-fluid p-3">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>StudentSync</h1>
+            </div>
+            <div class="col-md-1 d-flex align-items-center justify-content-end">
+                <a href="registration page.html" style="text-decoration: none;" class="button">Регистрация</a>
+            </div>
+            <div class="col-md-1 d-flex align-items-center justify-content-start">
+                <a href="login.html" style="text-decoration: none;" class="button">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <nav class="nav flex-column bc-fon mt-5">
+                        <a class="nav-link active h5" href="index.html">Главная страница</a>
+                        <a class="nav-link h5" href="forum.html">Форум</a>
+                        <a class="nav-link h5" href="#">Идеи</a>
+                    </nav>
+                </div>
+                <div class="col-md-10">
+                    <h1 class="display-3 text-white fw-7 text-center">Обсуждения пользователей</h1>
+                    <div id="formQuestion" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" data-dismiss="modal">x</button>
+                                </div>
+                                <form id="discussionForm">
+                                    <div class="form-group m-5">
+                                        <textarea class="form-control" id="question" rows="4" placeholder="Введите ваш вопрос"></textarea>
+                                    </div>
+                                    <input type="submit" value="Отправить" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Discussions Display -->
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <button id="prevBtn" class="btn btn-secondary">Назад</button>
+                        <button id="add" class="btn btn-secondary" data-toggle="modal" data-target="#formQuestion">Задать вопрос</button>
+                        <button id="nextBtn" class="btn btn-secondary">Вперед</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

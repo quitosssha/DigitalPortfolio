@@ -1,11 +1,7 @@
-﻿<aside>
-	<nav class="table">
-		<ul>
-			<li><a asp-controller="Home" asp-action="Index">Главная страница</a></li>
-			<li><a>Сообщения</a></li>
-			<li><a>Форум</a></li>
-			<li><a>Поиск команды</a></li>
-			<li><a>Поиск</a></li>
-		</ul>
+﻿<div class="col-md-2 text-center">
+	<nav class="nav flex-column bc-fon mt-5">
+		<a class="nav-link active h5" asp-controller="Home" asp-action="Index">Главная страница</a>
+		<a class="nav-link h5" asp-controller="Home" asp-action="Forum">Форум</a>
+		<a class="nav-link h5" href="#">Идеи</a>
 	</nav>
-</aside>
+</div>
