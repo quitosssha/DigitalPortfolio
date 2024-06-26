@@ -1,0 +1,15 @@
+﻿@model DigitalPortfolio.Models.RegistrationModel
+
+<div class="col-md-8 d-flex align-items-center justify-content-center">
+    <form method="post" action="/registration/registration" class="log-reg mt-5">
+        <input type="text" name="name" placeholder="Name" asp-for="Name" required>
+        <br />
+        <input type="text" name="surname" placeholder="Surname" asp-for="Surname" required>
+        <br />
+        <input type="text" name="username" placeholder="Login" asp-for="Username" required>
+        <br />
+        <input type="password" name="password" placeholder="Password" asp-for="Password" required>
+        <br />
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+</div>

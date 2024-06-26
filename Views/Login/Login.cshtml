@@ -1,0 +1,11 @@
+﻿@model DigitalPortfolio.Models.LoginModel
+
+<div class="col-md-8 d-flex align-items-center justify-content-center">
+    <form method="post" action="/login/login" class="log-reg mt-5">
+        <input type="text" name="username" placeholder="Login" asp-for="Username" required>
+        <br />
+        <input type="password" name="password" placeholder="Password" asp-for="Password" required>
+        <br />
+        <input type="submit" value="Войти">
+    </form>
+</div>

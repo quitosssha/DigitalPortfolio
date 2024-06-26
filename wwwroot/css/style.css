@@ -67,6 +67,16 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.reg-success {
+    color: black; /* Цвет текста внутри белого блока */
+    font-size: 48px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый фон */
+    padding: 20px; /* Внутренний отступ */
+    border-radius: 15px; /* Закругленные края */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень для визуального эффекта */
+}
+
 /* Стили для полей ввода */
 input[type="text"],
 input[type="password"] {

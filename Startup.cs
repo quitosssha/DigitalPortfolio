@@ -18,7 +18,7 @@ namespace DigitalPortfolio
 			}
 
 			app.UseRouting();
-
+			app.UseHttpsRedirection();
 			app.UseStaticFiles();
 
 			app.UseEndpoints(endpoints =>
